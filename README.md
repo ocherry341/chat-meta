@@ -111,7 +111,7 @@ __Response__
 | failedCount   | number | The number of chunked document failed to insert or update |
 | failedVectors | Array  | The failed vectors                                        |
 
-`POST /query`
+### `POST /query`
 
 Query the vector database and return the most similar documents
 
