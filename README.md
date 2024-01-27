@@ -168,7 +168,7 @@ __Request__
 
 | Field    | Type             |          | Description                                                                                                                                       |
 | -------- | ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| messages | Array\<Message\> | Required | namespace to remove, default same as env PIENCONE_NAMESPACE                                                                                       |
+| messages | Array\<Message\> | Required | [OpenAI chat completion messages](https://platform.openai.com/docs/api-reference/chat/create#chat-create-messages)                                |
 | filter   | object           | Optional | [Metadata filter](https://docs.pinecone.io/docs/metadata-filtering). if set, only filted document will be used as context.                        |
 | model    | string           | Optional | Model used to generate text, default same as env OPENAI_API_DEFAULT_MODEL. See [list of models](https://platform.openai.com/docs/models/overview) |
 
