@@ -120,7 +120,7 @@ __Request__
 | Field  | Type   |          | Description                                                             |
 | ------ | ------ | -------- | ----------------------------------------------------------------------- |
 | text   | string | Required | The uploaded file                                                       |
-| topK   | number | Optional | Any other metadata you want to store with the document, accepts any key |
+| topK   | number | Optional | The number of results to return                                         |
 | filter | object | Optional | [Metadata filter](https://docs.pinecone.io/docs/metadata-filtering)     |
 
 __Response__
